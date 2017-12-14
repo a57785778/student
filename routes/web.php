@@ -20,3 +20,6 @@ Route::get('/test', function () {
 
     dd($user);
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
