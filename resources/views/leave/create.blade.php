@@ -77,7 +77,7 @@
 
 	<div class="margin text-center" id="classtable" style="display:none">
 		<div class=" weekn">
-			<div w3-include-html="w1.html"></div>
+			<div w3.includehtml="w1.html"></div>
 		</div>
 		<input type="button" value="加入表單">
 	</div>
