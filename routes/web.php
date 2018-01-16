@@ -39,9 +39,8 @@ Route::get('/test', function () {
     dd($user->toArray());
 });
 
-Route::get('/leave/create', function () {
-    return view('leave.create');
-});
+Route::get('/leave/create', function () { return view('leave.create');});
+Route::get('/leave/isms', function () { return view('leave.isms');});
 
 Auth::routes();
 
