@@ -46,3 +46,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/login', 'LoginController@login')->name('login');
+
+Route::get('/leave', 'IsmsController@index')->name('leave.index');
+Route::get('/leave/isms', 'IsmsController@isms')->name('leave.isms');
