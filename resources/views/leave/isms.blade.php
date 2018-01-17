@@ -227,11 +227,18 @@
         </div>
     </nav>
 
+    <div w3.includehtml="apply.html"></div>
+
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/popper.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/w3.js') }}"></script>
     <script src="{{ asset('js/holder.min.js') }}"></script>
+
+    <script>
+        w3.includeHTML();
+    </script>
+
 
 </body>
 </html>
