@@ -1,6 +1,8 @@
-body{
-    font-family: '微軟正黑體';font-size: 1.2rem;
+body {
+  font-family: '微軟正黑體';
+  font-size: 1.2rem;
 }
-.user>a{
-    color: #00000080;
+
+.user > a {
+  color: #00000080;
 }
