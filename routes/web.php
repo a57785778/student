@@ -19,7 +19,7 @@ Route::get('/test', function () {
     // ]);
 
     $name='黃俊耀';
-    $email='a577iuu88@gmail.com';
+    $email='a5778@gmail.com';
     $password='˙12345';
     
     $user=\App\Service\UserService::create($name,$email,$password);
@@ -31,8 +31,8 @@ Route::get('/test', function () {
     $user=\App\Service\UserService::create($name,$email,$password);
 
     $name='卓君飛';
-    $email='a58899@gmail.com';
-    $password='˙012345';
+    $email='a5887@gmail.com';
+    $password='˙01234';
     
     $user=\App\Service\UserService::create($name,$email,$password);
 
